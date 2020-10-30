@@ -100,7 +100,7 @@ class FreqSpectrum(DPT.DPObject):
 					# get values in array_dict
 					advals = np.array([*self.array_dict.values()])
 					return self.numSets, advals[i-1]+1
-			elif self.current_plot_type == 'Channel' and plot_type == 'Array':  # change from array to channel
+			elif self.current_plot_type == 'Channel' and plot_type == 'Array':  # change from channel to array
 				# get values in array_dict
 				advals = np.array([*self.array_dict.values()])
 				# find index that is larger than i
